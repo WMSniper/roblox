@@ -1,0 +1,33 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://copy-map.com/sitemap.xml
+
+# Specific crawl directives for better SEO
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+# Disallow unnecessary files
+Disallow: /css/
+Disallow: /js/
+Disallow: /*.log
+Disallow: /*.txt$
+Disallow: /admin/
+Disallow: /private/
+
+# Allow important SEO pages
+Allow: /copy-roblox-map
+Allow: /rbx-copy-map
+Allow: /roblox-game-copy
+Allow: /roblox-tool-copy
+Allow: /roblox-map-downloader
